@@ -10,8 +10,9 @@ If you want to see the snippet builder in action:
 
 - [x] POC
 - [ ] improved UI
+- [ ] bundle preselection of snippets
 - [ ] preview of snippets before download
-- [ ] preselection of snippets through configuration file
+- [ ] save preselection of snippets through configuration file
 - [ ] submission of snippets through a form
 
 ---
