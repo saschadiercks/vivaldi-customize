@@ -49,9 +49,12 @@ function getLabel($cssFile) {
     // If YAML file exists, try to get the title
     if (file_exists($ymlFile)) {
         $ymlContent = file_get_contents($ymlFile);
-        // Simple YAML title extraction
-        if (preg_match('/title:\s*(.+)/i', $ymlContent, $matches)) {
-            return trim($matches[1]);
+        // Simple YAML title extraction - use [^\n]* to match only up to end of line
+        if (preg_match('/title:\s*([^\n]+)/i', $ymlContent, $matches)) {
+            $title = trim($matches[1]);
+            if (!empty($title)) {
+                return $title;
+            }
         }
     }
 

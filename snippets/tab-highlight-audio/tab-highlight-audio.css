@@ -1,9 +1,5 @@
 /* -- highlight tab with background audio -- */
 .tab.audio-on:not(.active) {
-    transition: all var(--mod-animation-speed) ease;
-    color: var(--colorHighlightBg, --mod-highlight-color);
-    box-shadow: var(--mod-drop-shadow);
-    .tab-header {
-        background-color: var(--colorBg);
-    }
+    transition: opacity .3s ease;
+    opacity: 1;
 }
