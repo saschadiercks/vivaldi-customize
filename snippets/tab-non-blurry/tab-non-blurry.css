@@ -1,0 +1,4 @@
+/* prevent blurry text in tabs on zoom */
+.tab-position {
+    will-change: unset !important;
+}

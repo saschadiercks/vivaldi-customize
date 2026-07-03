@@ -1,0 +1,8 @@
+/* make close button more subtle */
+#tabs-tabbar-container.top {
+    :is(.tab) {
+        & .close {
+            background-color: transparent !important;
+        }
+    }
+}

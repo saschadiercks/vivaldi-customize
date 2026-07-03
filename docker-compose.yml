@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    command: php -S 0.0.0.0:8080 -t /htdocs
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./app:/htdocs
+      - ./snippets:/htdocs/snippets

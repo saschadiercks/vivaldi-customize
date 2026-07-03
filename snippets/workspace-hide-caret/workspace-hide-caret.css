@@ -1,0 +1,8 @@
+/* Hide the dropdown icon */
+.tabs-top {
+    .button-toolbar.workspace-popup {
+        .button-toolbar-menu-indicator {
+            display: none !important;
+        }
+    }
+}

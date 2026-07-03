@@ -1,0 +1,6 @@
+/* -- Speed dial -- */
+.SpeedDials {
+    .SpeedDial *:hover {
+        cursor: pointer;
+    }
+}

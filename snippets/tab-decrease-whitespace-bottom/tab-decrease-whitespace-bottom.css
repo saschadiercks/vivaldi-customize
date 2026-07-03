@@ -1,0 +1,4 @@
+/* reduce whitespace tabs to address-bar */
+.tabs-top.density-on:not(.tabs-at-edge) #tabs-tabbar-container:not(:has(#tabs-subcontainer)) {
+	padding-bottom: 3px !important;
+}

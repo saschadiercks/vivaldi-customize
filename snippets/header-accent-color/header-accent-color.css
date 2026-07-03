@@ -1,0 +1,19 @@
+/* make main bar pick up color from page/accent */
+.color-accent-from-page {
+    & .mainbar {
+        background-color: var(--colorTabBar, var(--color-bg)) !important;
+        color: var(--colorImageFg, var(--colorAccentFg)) !important;
+    }
+
+    & .toolbar-mainbar {
+        padding-top: 0 !important;
+
+        & button:hover {
+            background-color: var(--colorAccentBgAlpha, var(--color-bg)) !important;
+        }
+    }
+
+    & #tabs-tabbar-container.top {
+        box-shadow: none !important;
+    }
+}

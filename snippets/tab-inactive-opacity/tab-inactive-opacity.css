@@ -1,0 +1,10 @@
+/* lower opacity of background tabs */
+#tabs-tabbar-container.top {
+    :is(.tab) {
+        transition: opacity .3s ease;
+
+        &:not(.active, :hover, .audio-on) {
+            opacity: .5;
+        }
+    }
+}
