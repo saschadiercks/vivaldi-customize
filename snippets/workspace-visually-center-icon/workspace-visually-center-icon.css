@@ -1,0 +1,7 @@
+/* Visually center Workspace Icon */
+.tabbar-workspace-button {
+	.button-icon {
+		position: relative;
+		left: calc(var(--densityGap, 3px) * -1)
+	}
+}
