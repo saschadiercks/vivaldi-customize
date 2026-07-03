@@ -1,4 +1,4 @@
-title: Bookmark Accent Color
+# Hide caret from Workspace icon
 description:
 provider: Sascha Diercks
 tags: []

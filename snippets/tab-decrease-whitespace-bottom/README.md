@@ -1,4 +1,4 @@
-title: Color the header with Accent Color
+# Remove the whitespace below the tab bar
 description:
 provider: Sascha Diercks
 tags: []

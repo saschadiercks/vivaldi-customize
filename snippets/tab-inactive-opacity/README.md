@@ -1,4 +1,4 @@
-title: Highlight a tab, if it plays audio
+# Decrease the opacity of inactive tabs
 description:
 provider: Sascha Diercks
 tags: []

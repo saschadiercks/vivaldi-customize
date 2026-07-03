@@ -1,4 +1,4 @@
-title: Visually center workspace icon
+# Subtle close button
 description:
 provider: Sascha Diercks
 tags: []

@@ -44,13 +44,13 @@ function findCSSFiles($dir) {
 // Function to get the label for a CSS file
 function getLabel($cssFile) {
     $dir = dirname($cssFile);
-    $ymlFile = $dir . '/description.yml';
+    $readmeFile = $dir . '/README.md';
 
-    // If YAML file exists, try to get the title
-    if (file_exists($ymlFile)) {
-        $ymlContent = file_get_contents($ymlFile);
-        // Simple YAML title extraction - use [^\n]* to match only up to end of line
-        if (preg_match('/title:\s*([^\n]+)/i', $ymlContent, $matches)) {
+    // If README.md file exists, try to get the first heading
+    if (file_exists($readmeFile)) {
+        $readmeContent = file_get_contents($readmeFile);
+        // Extract the first Markdown heading (# Title)
+        if (preg_match('/^#+\s+(.+)$/m', $readmeContent, $matches)) {
             $title = trim($matches[1]);
             if (!empty($title)) {
                 return $title;

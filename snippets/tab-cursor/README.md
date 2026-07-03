@@ -1,4 +1,4 @@
-title: Tab Cursor
+# Tab Cursor
 description: Displays a pointer as your mouse cursor when you hover a tab.
 provider: Sascha Diercks
 tags: []

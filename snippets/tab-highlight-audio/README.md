@@ -1,4 +1,4 @@
-title: Remove the whitespace below the tab bar
+# Highlight a tab, if it plays audio
 description:
 provider: Sascha Diercks
 tags: []

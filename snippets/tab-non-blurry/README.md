@@ -1,4 +1,4 @@
-title: Hide caret from Workspace icon
+# Prevent blurry tabs
 description:
 provider: Sascha Diercks
 tags: []

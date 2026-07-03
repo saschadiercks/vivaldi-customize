@@ -1,4 +1,4 @@
-title: Decrease the opacity of inactive tabs
+# Visually center workspace icon
 description:
 provider: Sascha Diercks
 tags: []

@@ -1,4 +1,4 @@
-title: Prevent blurry tabs
+# Decrease whitespace around worskspace icon
 description:
 provider: Sascha Diercks
 tags: []
