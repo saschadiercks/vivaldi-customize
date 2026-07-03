@@ -3,25 +3,20 @@
 With this project you can easily select the snippets, you want to apply and turn it into a single CSS-file.
 If you need to know, how to customize Vivaldi with CSS, [then head over here](/snippets)
 
----
-
-## How to serve this application locally
-
-### Use case
-
-### Want a demo?
-
+If you want to see the snippet builder in action:
 [Snippet builder for Vivaldi](https://demo.saschadiercks.de/vivaldi/)
-
-## Features
-
-- select snippets you want to apply and download them as a zip-file
 
 ### Planned Features
 
-- tbd
+- [x] POC
+- [ ] improved UI
+- [ ] preview of snippets before download
+- [ ] preselection of snippets through configuration file
+- [ ] submission of snippets through a form
 
-## Infos for local development
+---
+
+## Local Development
 
 ### Usage of Colima
 - Install Docker CLI: `brew install docker`
