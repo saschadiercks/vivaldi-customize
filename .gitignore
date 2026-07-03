@@ -1,6 +1,3 @@
 .DS_Store
 .nova
 .idea
-
-# Don't commit app components, copied there during local development
-/app/snippets
