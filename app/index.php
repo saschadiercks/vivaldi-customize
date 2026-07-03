@@ -11,10 +11,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-	<h1>Snippet builder for Vivaldi</h1>
-	<div class="flex">
-		<div class="input">
-			<h2>Select CSS Snippets</h2>
+<div class="flex flex-col h-dvh">
+	<h1 class="m-0 mbe-1">Snippet builder for Vivaldi</h1>
+	<div class="flex flex-1">
+		<div class="input flex-1">
+			<h2 class="mbs-0">Select CSS Snippets</h2>
 <?php
 // Function to recursively find all CSS files in snippets folder
 function findCSSFiles($dir) {
@@ -83,14 +84,16 @@ foreach ($cssFiles as $file) {
 }
 ?>
 	</div>
-	<div class="output">
-		<h3>Preview</h3>
-		<div class="preview">
+	<div class="output flex flex-1 flex-col">
+		<div class="flex-1 flex flex-col">
+			<div class="flex items-center justify-between mbe-1">
+				<h3 class="m-0">Preview</h2>
+				<button id="downloadBtn" class="flex-shrink-0">Download</button>
+			</div>
+			<textarea id="preview" class="flex-1" readonly></textarea>
 		</div>
-		<button id="downloadBtn">Download</button>
 	</div>
 </div>
-
 <script>
 // Function to update the preview
 function updatePreview() {
@@ -109,7 +112,7 @@ function updatePreview() {
     .then(response => response.text())
     .then(data => {
         // Update the preview div with the CSS content
-        document.querySelector('.preview').textContent = data;
+        document.querySelector('#preview').textContent = data;
     })
     .catch(error => console.error('Error:', error));
 }

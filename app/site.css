@@ -1,3 +1,7 @@
+body {
+	font-family:  "SF pro", apple-ui, sans-serif;
+}
+
 fieldset {
 	border-width: 0;
 }
@@ -6,21 +10,43 @@ fieldset {
 	display: flex;
 }
 
-.input {
-	flex: 1;
-	padding: 1em;
-	border-right: 1px solid #ccc;
-}
-
-.output {
-	flex: 1;
-	padding: 1em;
-	display: flex;
+.flex-col {
 	flex-direction: column;
 }
 
-.preview {
+.flex-1 {
 	flex: 1;
+}
+
+.flex-shrink-0 {
+	flex-shrink: 0;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.h-dvh {
+	height: 98dvh;
+}
+
+.m-0 {
+	margin: 0;
+}
+
+.mbs-0 {
+	margin-block-start: 0;
+}
+
+.mbe-1 {
+	margin-block-end: 1em;
+}
+
+#preview {
 	background-color: #f5f5f5;
 	border: 1px solid #ddd;
 	padding: 1em;
