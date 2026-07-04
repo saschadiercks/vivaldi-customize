@@ -2,7 +2,7 @@
 <html lang="en-gb" dir="ltr" class="h-full overflow-x-clip scroll-smooth scrollbar-gutter-stable">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Snippet builder for Vivaldi</title>
+	<title>Mod generator for Vivaldi</title>
 	<meta name="theme-color" content="#fdfdfd" media="(prefers-color-scheme: light)">
 	<meta name="theme-color" content="#272e35" media="(prefers-color-scheme: dark)">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,7 +13,7 @@
 <body class="h-full m-0 p-0 hyphens-auto">
 <div class="grid grid-rows-[auto-1fr-auto] min-h-full px-1">
 	<header>
-		<h1>Snippet builder for Vivaldi</h1>
+		<h1>Mod generator for Vivaldi</h1>
 	</header>
 	<main class="flex">
 		<div class="input flex-1">
