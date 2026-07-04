@@ -47,9 +47,18 @@ function getLabel($cssFile) {
     $dir = dirname($cssFile);
     $readmeFile = $dir . '/README.md';
 
-    // If README.md file exists, try to get the first heading
+    // If README.md file exists, try to get title from front matter, then first heading
     if (file_exists($readmeFile)) {
         $readmeContent = file_get_contents($readmeFile);
+
+        // Try to extract title from front matter (YAML format between ---)
+        if (preg_match('/^---[\s\S]*?title:\s*([^\n]+)[\s\S]*?---/i', $readmeContent, $matches)) {
+            $title = trim($matches[1]);
+            if (!empty($title)) {
+                return $title;
+            }
+        }
+
         // Extract the first Markdown heading (# Title)
         if (preg_match('/^#+\s+(.+)$/m', $readmeContent, $matches)) {
             $title = trim($matches[1]);
