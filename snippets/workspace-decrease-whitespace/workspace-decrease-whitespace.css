@@ -1,11 +1,14 @@
 /* decrease whitespace on workspace-button */
-.tabs-top {
-    .button-toolbar.workspace-popup {
-        &.tabbar-workspace-button {
-            margin-left: 0 !important;
-        }
-        .ToolbarButton-Button {
-            min-width: 0 !important;
-        }
-    }
+.auto-hide-off {
+	.tabs-top {
+		.button-toolbar.workspace-popup {
+			&.tabbar-workspace-button {
+				margin-left: 0 !important;
+			}
+
+			.ToolbarButton-Button {
+				min-width: 0 !important;
+			}
+		}
+	}
 }

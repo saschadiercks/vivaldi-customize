@@ -1,4 +1,6 @@
 /* reduce whitespace tabs to address-bar */
-.tabs-top.density-on:not(.tabs-at-edge) #tabs-tabbar-container:not(:has(#tabs-subcontainer)) {
-	padding-bottom: 0 !important;
+.auto-hide-off {
+	.tabs-top.density-on:not(.tabs-at-edge) #tabs-tabbar-container:not(:has(#tabs-subcontainer)) {
+		padding-bottom: 0 !important;
+	}
 }
