@@ -1,7 +1,7 @@
 ---
 title: Dial Cursor
 author: Sascha Diercks
-tags: [speeddial, cursor, mouse]
+tags: [speeddial, cursor, mouse, recommended]
 ---
 
 # Dial Cursor

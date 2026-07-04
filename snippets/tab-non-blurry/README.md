@@ -1,7 +1,7 @@
 ---
 title: Prevent blurry tabs
 author: Sascha Diercks
-tags: [core, tab]
+tags: [core, tab, recommended]
 ---
 
 # Prevent blurry tabs

@@ -1,7 +1,7 @@
 ---
 title: Tab Cursor
 author: Sascha Diercks
-tags: [header, tab, cursor, mouse]
+tags: [header, tab, cursor, mouse, recommended]
 ---
 
 # Tab Cursor
