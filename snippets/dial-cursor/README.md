@@ -1,4 +1,8 @@
+---
+title: Dial Cursor
+author: Sascha Diercks
+tags: [speeddial, cursor, mouse]
+---
+
 # Dial Cursor
-description: Displays a pointer as your mouse cursor when you hover a dial element.
-provider: Sascha Diercks
-tags: []
+Displays a pointer as your mouse cursor when you hover a dial element.
