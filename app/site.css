@@ -6,6 +6,10 @@ fieldset {
 	border-width: 0;
 }
 
+.box-border {
+	box-sizing: border-box;
+}
+
 .flex {
 	display: flex;
 }
@@ -22,16 +26,28 @@ fieldset {
 	flex-shrink: 0;
 }
 
+.grid {
+	display: grid;
+}
+
+.grid-rows-\[auto-1fr-auto\] {
+	grid-template-rows: auto 1fr auto;
+}
+
+.h-full {
+	height: 100%;
+}
+
+.hyphens-auto {
+	hyphens: auto;
+}
+
 .items-center {
 	align-items: center;
 }
 
 .justify-between {
 	justify-content: space-between;
-}
-
-.h-dvh {
-	height: 98dvh;
 }
 
 .m-0 {
@@ -44,6 +60,55 @@ fieldset {
 
 .mbe-1 {
 	margin-block-end: 1em;
+}
+
+.min-h-full {
+	min-height: 100%;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.overflow-x-clip {
+	overflow-x: clip;
+}
+
+.overflow-y-auto {
+	overflow-y: auto;
+}
+
+.p-0 {
+	padding: 0;
+}
+
+.p-1 {
+	padding: 1rem;
+}
+
+.px-1 {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.scrollbar-gutter-stable {
+	scrollbar-gutter: stable;
+}
+
+.scroll-smooth {
+	scroll-behavior: smooth;
+}
+
+.sticky {
+	position: sticky;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.top-0 {
+	top: 0;
 }
 
 #preview {
