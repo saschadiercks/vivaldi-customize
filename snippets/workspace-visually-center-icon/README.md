@@ -1,7 +1,7 @@
 ---
 title: Center Workspace Icon
 author: Sascha Diercks
-tags: [workspace, visuals]
+tags: [workspace, visuals, unified]
 ---
 
 # Visually center workspace icon

@@ -1,5 +1,5 @@
 /* reduce whitespace tabs to address-bar */
-.auto-hide-off {
+.auto-hide-off.unified-ui {
 	.tabs-top.density-on:not(.tabs-at-edge) #tabs-tabbar-container:not(:has(#tabs-subcontainer)) {
 		padding-bottom: 0 !important;
 	}
