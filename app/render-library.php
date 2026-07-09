@@ -24,6 +24,34 @@ function findCSSFiles($dir) {
     return $files;
 }
 
+// Function to get tags from README.md front matter
+function getTags($cssFile) {
+    $dir = dirname($cssFile);
+    $readmeFile = $dir . '/README.md';
+    $tags = [];
+
+    if (file_exists($readmeFile)) {
+        $readmeContent = file_get_contents($readmeFile);
+
+        // Try to extract tags from front matter (YAML format between ---)
+        if (preg_match('/^---[\s\S]*?tags:\s*\[([^\]]+)\][\s\S]*?---/i', $readmeContent, $matches)) {
+            $tagsString = $matches[1];
+            // Extract individual tags, handling quoted and unquoted values
+            if (preg_match_all('/["\']?([^"\',\s]+)["\']?/', $tagsString, $tagMatches)) {
+                $tags = array_map('trim', $tagMatches[1]);
+            }
+        }
+    }
+
+    return $tags;
+}
+
+// Function to check if a CSS file has the recommended tag
+function isRecommended($cssFile) {
+    $tags = getTags($cssFile);
+    return in_array('recommended', array_map('strtolower', $tags));
+}
+
 // Function to get the label for a CSS file
 function getLabel($cssFile) {
     $dir = dirname($cssFile);
@@ -64,11 +92,12 @@ foreach ($cssFiles as $file) {
     // Escape path for use as value (replace / with |)
     $value = str_replace('/', '|', $relativePath);
     $label = getLabel($file);
+    $isRecommended = isRecommended($file);
     ?>
     <fieldset>
         <label>
             <input type="checkbox" name="css_<?php echo htmlspecialchars($value); ?>" value="<?php echo htmlspecialchars($value); ?>">
-            <?php echo htmlspecialchars($label); ?>
+            <?php echo htmlspecialchars($label); ?><?php if ($isRecommended) echo ' ⭐'; ?>
         </label>
     </fieldset>
     <?php
