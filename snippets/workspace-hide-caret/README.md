@@ -1,7 +1,7 @@
 ---
 title: Hide Workspace caret
 author: Sascha Diercks
-tags: [workspace, compact]
+tags: [workspace, compact, recommended]
 ---
 
 # Hide caret from Workspace icon

@@ -1,7 +1,7 @@
 ---
 title: Subtle close button
 author: Sascha Diercks
-tags: [header, tab]
+tags: [header, tab, recommended]
 ---
 
 # Subtle close button
