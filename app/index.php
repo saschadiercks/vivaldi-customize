@@ -14,13 +14,13 @@
 <div class="grid grid-rows-[auto-1fr-auto] min-h-full px-1">
 	<header>
 		<h1>Mod generator for Vivaldi</h1>
-		<button command="show-modal" commandfor="about-project">What is this?</button>
+		<!--<button command="show-modal" commandfor="about-project">What is this?</button>
 		<dialog id="about-project">
 			<h2>What is this</h2>
 			<p>With this tool you can select custom CSS snippets and download them as a single file to use in Vivaldi.</p>
 			<p>Some adjustments are restricted to certain layouts/options. So, some are restricted to only work in unified, others don't make sense when Auto hide is on.
 				Therefore some additional checks are added to the adjustments, so you don't have to worry when changing layout.</p>
-		</dialog>
+		</dialog>-->
 	</header>
 	<main class="flex">
 		<div class="input flex-1">
