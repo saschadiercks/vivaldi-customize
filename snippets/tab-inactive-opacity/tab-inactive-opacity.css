@@ -4,7 +4,7 @@
         transition: opacity .3s ease;
 
         &:not(.active, :hover, .audio-on) {
-            opacity: .5;
+            opacity: .7;
         }
     }
 }
