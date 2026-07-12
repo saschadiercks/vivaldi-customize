@@ -24,7 +24,8 @@
 	</header>
 	<main class="flex">
 		<div class="input flex-1">
-			<h2 class="mbs-0">Select CSS Snippets</h2>
+			<h2 class="mbs-0 mbe-0">Select CSS Snippets</h2>
+			<div class="mbe-1">⭐️= my recommendation</div>
 			<?php require_once 'render-library.php'; ?>
 		</div>
 		<div class="output flex flex-1 flex-col sticky top-0">
