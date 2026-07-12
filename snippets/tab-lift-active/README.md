@@ -1,7 +1,7 @@
 ---
 title: Lift active tab
 author: Sascha Diercks
-tags: [tab, recommended]
+tags: [tab]
 ---
 
 # Lifts current tab above others

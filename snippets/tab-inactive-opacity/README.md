@@ -1,7 +1,7 @@
 ---
 title: Decrease Inactive Tab Opacity
 author: Sascha Diercks
-tags: [tab, recommended]
+tags: [tab]
 ---
 
 # Decrease the opacity of inactive tabs
