@@ -1,7 +1,7 @@
 ---
 title: Bookmark Accent Color
 author: Sascha Diercks
-tags: [bookmark, color, recommended]
+tags: [bookmark, color]
 ---
 
 # Bookmark Accent Color
