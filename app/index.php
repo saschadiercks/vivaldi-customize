@@ -30,7 +30,8 @@
 		</div>
 		<div class="output flex flex-1 flex-col sticky top-0">
 			<div class="flex-1 flex flex-col">
-				<h3 class="mbs-0">Preview</h2>
+				<h3 class="mbs-0 mbe-0">Preview</h2>
+				<a href="https://github.com/saschadiercks/vivaldi-customize/tree/main/snippets#how-to-apply-ui-mods" class="mbe-1">How to apply thoes changes to Vivaldi</a>
 				<textarea id="preview" class="flex-1" readonly></textarea>
 			</div>
 			<button id="downloadBtn" class="flex-shrink-0">Download</button>
@@ -38,6 +39,7 @@
 	</main>
 	<footer class="flex justify-between p-1">
 		<div>Made by <a href="https://saschadiercks.de" rel="noreferrer">Sascha Diercks</a></div>
+		<div>Still in development - features are missing</div>
 		<div>Made with ❤️ in 🇪🇺</div>
 	</footer>
 </div>
