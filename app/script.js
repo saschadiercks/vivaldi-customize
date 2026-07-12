@@ -1,3 +1,14 @@
+function updateUrl() {
+	const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+	const selected = Array.from(checkboxes).map(cb => cb.value);
+
+	if (selected.length === 0) {
+		history.replaceState({}, '', window.location.pathname);
+	} else {
+		history.replaceState({}, '', '?snippets=' + selected.join(','));
+	}
+}
+
 function updatePreview() {
 	// Get all checked checkboxes
 	const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
@@ -17,6 +28,9 @@ function updatePreview() {
 			document.querySelector('#preview').textContent = data;
 		})
 		.catch(error => console.error('Error:', error));
+
+	// Update URL with selected snippets
+	updateUrl();
 }
 
 // Add event listeners to all checkboxes
@@ -57,3 +71,23 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
 		})
 		.catch(error => console.error('Error:', error));
 });
+
+// Initialize checkboxes from URL parameter on page load
+function initializeFromUrl() {
+	const params = new URLSearchParams(window.location.search);
+	const snippetsParam = params.get('snippets');
+
+	if (snippetsParam) {
+		const snippetIds = snippetsParam.split(',');
+		document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+			if (snippetIds.includes(checkbox.value)) {
+				checkbox.checked = true;
+			}
+		});
+		// Trigger preview update for the pre-checked boxes
+		updatePreview();
+	}
+}
+
+// Run initialization when DOM is loaded
+document.addEventListener('DOMContentLoaded', initializeFromUrl);
