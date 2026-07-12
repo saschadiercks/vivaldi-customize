@@ -1,0 +1,4 @@
+/* -- Speed dial no shadow -- */
+:is(.SpeedDial--Thumbnail, .dashboard-widget) {
+	box-shadow: none !important;
+}

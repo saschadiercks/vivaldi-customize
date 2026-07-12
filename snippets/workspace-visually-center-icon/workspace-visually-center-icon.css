@@ -1,0 +1,11 @@
+/* Visually center Workspace Icon, when title is hidden */
+.auto-hide-off .unified-ui {
+	.tabbar-workspace-button {
+		&:not(:has(.button-title)) {
+			.button-icon {
+				position: relative;
+				left: -2px;
+			}
+		}
+	}
+}

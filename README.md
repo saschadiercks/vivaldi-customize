@@ -1,46 +1,19 @@
-# vivaldi-ui-mods
+# Customize your Vivaldi experience even more
+
+I know, you love Vivaldi. I know, one of the reasons is, that you love to customize your browser.
+Vivaldi has plenty of options to allow you to personalize your browsing experience.
+Did you know, you can customize it even more?
+I hope, you like this.
+
+## Where do you want to go?
+
+- [UI modifications](/snippets)
+- [Custom Icon](/custom-icon)
+- [Vivaldi snippet builder](/app)
+- [My themes](/themes)
 
 A screenshot of Vivaldi with floating tabs and some additional whitespace to the right.
+I build these floating tabs, before Vivaldi 8 has been launched. It now supports such an layout out of the box.
+Therefore I have removed the adjustments from the repository.
+![Vivaldi with a slightly modded UI](/floating-tabs-full.png)
 
-![Vivaldi with a slightly modded UI](/screenshots/floating-tabs-full.png)
-
-## How to apply the UI-mod
-1. Visit `vivaldi://experiments` and tick the "Allow for CSS modifications" box.
-2. Then go to: `vivaldi://settings/appearance/` and choose a folder to load from. (Place the new CSS there or choose the folder, where you cloned the repository to.)
-3. Restart Vivaldi
-
-For more informations head over to:<br/>
-https://forum.vivaldi.net/topic/37802/css-modifications-experimental-feature
-
-### Additionally applied theme in the screenshot
-Modification of the Vivaldi light them. You can simply import this theme-file:
-[download theme](/themes/vivaldi-sdi-light.zip)
-
-## Animated states of tabs
-There is a nice transition when activating a tab or hovering over it and you will probably notice haveing a pointer cursor.
-![Highlight tab in background thab play audio](/screenshots/floating-tabs-hover-states.gif)
-
-### Highlighting of Background-audio in inactive tabs
-It also supports highlighting of background-audio, if the audio is not playing in the active tab:
-
-![Highlight tab in background thab play audio](/screenshots/vivaldi-highlight-background-audio.png)
-
-## Custom Icon macOS
-There is also a custom icon for macOS, you can apply to Vivaldi, in cas you want a slightly cleaner lookin icon.
-The icon is taken from:
-https://de.wikipedia.org/wiki/Datei:Vivaldi_web_browser_logo.svg
-
-I then scale it up a bit, so that it matches the other macOS-Icons (in size and shape).
-
-### How to apply the icon
-1. Find Vivaldi in the _Applications-folder_ in the finder
-2. right-click, the Vivald.app and slect _Informations_
-3. Drage the icon over to the icon in the upper left area of the new window.
-4. restart Vivaldi and the new icon is applied.
-
-If you want to remove that icon again, simply follow the preocedure from above, but instead of adding a new icon, just delete it.
-
-#### Note ####
-⚠️ You have to reapply the icon after each update of Vivaldi
-
-![Flat Vivaldi Iocn](/custom-icon/vivaldi-icon-mac.png)

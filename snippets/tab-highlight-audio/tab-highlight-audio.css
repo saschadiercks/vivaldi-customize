@@ -1,0 +1,5 @@
+/* -- highlight tab with background audio -- */
+.tab.audio-on:not(.active) {
+    transition: opacity .3s ease;
+    opacity: 1;
+}

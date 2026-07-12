@@ -1,0 +1,4 @@
+/* cursor on all tabs */
+.tab * {
+    cursor: pointer;
+}

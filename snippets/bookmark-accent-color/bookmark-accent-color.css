@@ -1,0 +1,7 @@
+/* overwrite bookmark button color if bookmark is saved */
+/*  delete the next line, if you do not want the bookmark-button inherit */
+/*  the accentColor but use red instead */
+--bookmarkButtonSavedColor: var(--colorTabBar);
+.BookmarkButton .button-on path {
+    fill: var(--bookmarkButtonSavedColor, red) !important;
+}

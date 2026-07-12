@@ -1,0 +1,22 @@
+{
+  "name": "vivaldi-customize",
+  "version": "1.0.0",
+  "description": "Customize Vivaldi browser even further",
+  "main": "gulpfile.js",
+  "devDependencies": {
+  },
+  "scripts": {
+    "colima:start": "colima start && docker-compose up && echo 'open http://127.0.0.1:8080/ in browser' ",
+    "colima:stop": "docker-compose down && colima stop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saschadiercks/vivaldi-customize.git"
+  },
+  "author": "Sascha Diercks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saschadiercks/vivaldi-customize/issues"
+  },
+  "homepage": "https://github.com/saschadiercks/vivaldi-customize#readme"
+}

@@ -1,0 +1,14 @@
+/* -- Speed dial like Safari -- */
+.SpeedDial--Thumbnail {
+	background-color: transparent !important;
+
+	.thumbnail-image-preview {
+		border-radius: var(--radius);
+		background-color: color-mix(in srgb, var(--colorBg), transparent 35%);
+		padding: var(--densityGap, 6px);
+	}
+
+	.thumbnail-title {
+		background-color: transparent !important;
+	}
+}
