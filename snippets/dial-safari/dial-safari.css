@@ -2,6 +2,10 @@
 .SpeedDial--Thumbnail {
 	background-color: transparent !important;
 
+	img {
+		border-radius: var(--radius) !important;
+	}
+
 	.thumbnail-image-preview {
 		border-radius: var(--radius);
 		background-color: color-mix(in srgb, var(--colorBg), transparent 35%);
