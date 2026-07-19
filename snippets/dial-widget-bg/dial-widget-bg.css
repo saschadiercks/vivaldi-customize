@@ -1,0 +1,6 @@
+/* -- Semi transparent background like widges -- */
+.SpeedDial--Thumbnail {
+	:is(.thumbnail-image-preview,.thumbnail-title) {
+		background-color: color-mix(in srgb, var(--colorBg), transparent 35%) !important;
+	}
+}

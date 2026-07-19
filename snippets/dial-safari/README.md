@@ -1,7 +1,7 @@
 ---
 title: Dial Safari
 author: Sascha Diercks
-tags: [speeddial, recommended]
+tags: [speeddial]
 ---
 
 # Dial Safari
