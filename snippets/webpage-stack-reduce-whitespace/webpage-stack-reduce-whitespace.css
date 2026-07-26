@@ -2,8 +2,3 @@
 #browser:not(.fullscreen, .is-settingspage, .first-start).auto-hide-off.unified-ui:not(.win.maximized, .linux.maximized) #webpage-stack {
 	margin: 0 var(--densityGap, 6px) var(--densityGap, 6px) !important;
 }
-
-/* Reduce whitespace around toolbar, so it looks aligned */
-.tabs-top .toolbar-mainbar.toolbar-visible {
-	padding: 0 var(--densityGap, 3px) var(--densityGap, 3px) !important;
-}
