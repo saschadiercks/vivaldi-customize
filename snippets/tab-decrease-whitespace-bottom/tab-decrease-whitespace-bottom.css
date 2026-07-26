@@ -1,4 +1,6 @@
-/* Reduce whitespace around toolbar, so it looks aligned */
-.tabs-top .toolbar-mainbar.toolbar-visible {
-	padding: 0 var(--densityGap, 3px) var(--densityGap, 3px) !important;
+/* reduce whitespace tabs to address-bar */
+.auto-hide-off.unified-ui {
+	&.tabs-top.density-on:not(.tabs-at-edge) #tabs-tabbar-container:not(:has(#tabs-subcontainer)) {
+		padding-bottom: var(--densityGap, 3px) !important;
+	}
 }
