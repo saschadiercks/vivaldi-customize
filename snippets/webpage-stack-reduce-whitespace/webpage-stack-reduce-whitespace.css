@@ -1,0 +1,3 @@
+#browser:not(.fullscreen, .is-settingspage, .first-start).auto-hide-off.unified-ui:not(.win.maximized, .linux.maximized) #webpage-stack {
+	margin: 0 var(--densityGap, 6px) var(--densityGap, 6px);
+}
