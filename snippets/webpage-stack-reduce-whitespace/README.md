@@ -1,7 +1,7 @@
 ---
 title: Reduce Whitespace in Webpage-Stack
 author: Sascha Diercks
-tags: [webview, recommended]
+tags: [webview]
 ---
 
 # Reduce Whitespace in Webpage-Stack
