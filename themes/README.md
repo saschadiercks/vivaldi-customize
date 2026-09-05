@@ -1,3 +1,6 @@
 # My themes
-This is just a collection of themes, I have created for Vivaldi.
-They are often undergoing slight modifications, so they can get updated from time to time.
+
+I have submitted all my theme to the Vivaldi-Forum.
+https://themes.vivaldi.net/users/saschadiercks
+
+I usually create minimalist themes.
